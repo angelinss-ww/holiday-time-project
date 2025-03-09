@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav {
+    background-color: lightblue;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+  }
+  .nav-logo img {
+  }
+  
+  .container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .container a {
+    font-size: 16px;
+    text-decoration: none; 
+    color: black; 
+    margin: 0 10px; 
+  }
+  
+  .globus {
+   
+  }
+  
+  .english-version {
+    font-weight: bold; 
+    text-transform: uppercase; 
+  }
+  
+  .header, .main, .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+

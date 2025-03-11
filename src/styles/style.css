@@ -3,42 +3,69 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body {
+    background-color: #DCDCDC; /* Встановлює колір фону */
+  }
   
   .nav {
-    background-color: lightblue;
-    height: 8vh;
+    background-color: rgb(32, 40, 70);
+    height: 10vh;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 0 20px; 
   }
-  .nav-logo img {
+  .nav-logo {
+    padding-left: 4%;
+    
   }
   
-  .container {
+  .container, .nav-logo {
     display: flex;
     align-items: center; 
+    text-align: center;
+
   }
   
   .container a {
-    font-size: 16px;
+    font-size: 24px;
     text-decoration: none; 
-    color: black; 
-    margin: 0 10px; 
+    color: white; 
+    text-transform: uppercase;  
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+
   }
   
+  .container a::after{ 
+  content: '|';
+  font-size: 40px;
+  margin: 45px 45px;
+  font-weight: lighter;
+
+
+
+
+}
+.container a.english-version::after {
+  content: '';
+  margin-right: 0;
+}
+
+
   .globus {
    
   }
   
-  .english-version {
-    font-weight: bold; 
-    text-transform: uppercase; 
+  .english-version:after { 
   }
   
   .header, .main, .footer {
-    padding: 20px;
     text-align: center;
+  }
+  .logo{
+    border-radius: 40px;
   }
 
 

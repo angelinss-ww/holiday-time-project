@@ -5,6 +5,8 @@ import "./styles/style.css"
 function App() {
   return (
     <div className="App">
+      <body>
+      <header className="header">
       <nav className="nav">
         <div className="nav-logo">
           <img src={logo} alt="logotype" className="logo"/></div>
@@ -20,9 +22,10 @@ function App() {
       
         
       </nav>
-      <header className="header"></header>
+      </header>
       <main className="main"></main>
       <footer className="footer"></footer>
+      </body>
     </div>
   );
 }

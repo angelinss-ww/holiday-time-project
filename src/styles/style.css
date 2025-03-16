@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
   }
   body {
     background-color: #DCDCDC; /* Встановлює колір фону */
@@ -68,4 +69,72 @@
     border-radius: 40px;
   }
 
+  .main{
+    display: flex;
+  align-items: center; 
+  flex-direction: column; 
+  }
 
+  .main-holiday-time{
+    margin-top: 40px;
+    position: relative;
+    width: 1485px;
+    height: 369px;
+    color: #fff;
+  }
+  .main-holiday-time > h1{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 75px;
+    font-weight: bold;    
+  }
+  .main-holiday-time > h2{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 50px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .holydaytime{
+  }
+
+  .main-slider{
+    margin-top: 40px;
+    position: relative;
+    width: 1485px;
+    height: 604px;
+  }
+
+  .slider-text{
+    background-color: #fff;
+    width: 1164px;
+    height: 167px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 80%;
+    font-size: 24px;
+    font-style: italic;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+.review{
+  height: 68px;
+  width: 245px;
+  background-color: #202846;
+  position: absolute;
+  color: #fff;
+  border-radius: 40px;
+  top: 400px;
+  left: 920px; 
+  font-size: 24px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-decoration: none;
+}

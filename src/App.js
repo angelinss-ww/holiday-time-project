@@ -2,6 +2,7 @@ import logo from "./img/logo.jpg";
 import globus from "./img/globus.svg"
 import holydaytime from "./img/holiday-time.svg"
 import carpatianhouse from "./img/carpatiam-house.svg"
+import family from "./img/family.svg"
 import "./styles/style.css"
 
 function App() {
@@ -35,8 +36,20 @@ function App() {
         Справжні українські гори, власноручне сироваріння на полонині, водоспади та вікові дерева чекають на Вас.</span></div>
         <a href="#" className="review">Переглянути &rarr;</a> 
       </div>
+      <div className="active-recreation">
+        <div className="active-rec-img"><img src={family}/></div>
+        <div className="active-rec-text"><span>Активний відпочинок у нетипових лоцаціях.<br/> Незаймана природа та місцевий колорит<br/>
+        подарують Вам незабутні враження.</span></div>
+      </div>
+      <div className="callback">
+        <h1>Зворотній зв'язок</h1>
+        <span>Ім'я</span>
+        <input className="callback-name"  placeholder="Введіть ім'я"/>
+        <span>Номер телефону</span>
+        <input lassName="callback-number"  placeholder="Введіть номер телефону"/>
+        <button onClick = "0">Запросити виклик</button>
 
-
+      </div>
 
       </main>
       <footer className="footer"></footer>

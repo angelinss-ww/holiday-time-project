@@ -47,12 +47,14 @@ function App() {
         <input className="callback-name"  placeholder="Введіть ім'я"/>
         <span>Номер телефону</span>
         <input lassName="callback-number"  placeholder="Введіть номер телефону"/>
-        <button onClick = "0">Запросити виклик</button>
+        <button className= "CallBackButton" onClick = "0">Запросити виклик</button>
 
       </div>
 
       </main>
-      <footer className="footer"></footer>
+      <footer className="footer">
+        <span>&copy; 2025 HolidayTime.  All rights reserved.</span>
+      </footer>
       </body>
     </div>
   );
